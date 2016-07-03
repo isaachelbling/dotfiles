@@ -1,4 +1,4 @@
-export EDITOR=vim
+export EDITOR=subl
 
 # load up the stuff we use
 source ~/dotfiles/ui/ps1.sh
@@ -9,4 +9,4 @@ alias mvim="UBUNTU_MENUPROXY= gvim"
 
 eval 'dircolors ~/dotfiles/os/ubuntu/dircolors.ansi-dark' > /dev/null
 
-source ~/.nvm/nvm.sh
+# source ~/.nvm/nvm.sh
