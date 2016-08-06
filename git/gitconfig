@@ -10,7 +10,7 @@
   excludesfile = ~/.gitignore
   autocrlf = false
   safecrlf = false
-  editor = vim
+  editor = subl
 [alias]
   c = commit -m
   co = checkout
