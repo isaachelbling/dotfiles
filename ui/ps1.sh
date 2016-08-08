@@ -14,10 +14,10 @@ export NORMAL_COLOR="\[\e[m\]"
 
 export PROMPT_SYMBOL=➤
 
-if [ $SSH_CLIENT ]; then
-  export SSH_STATUS="${LIGHT_GREEN}[SSH]"
-else
+if [ $SSH_CLIENT == "" ]; then
   export SSH_STATUS=""
+else
+  export SSH_STATUS="${LIGHT_GREEN}[SSH]"
 fi
 
 # git!
