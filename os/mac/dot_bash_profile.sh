@@ -27,4 +27,4 @@ fi
 
 HISTCONTROL=ignoredups
 
-source ~/dotfiles/.private/*
+# source ~/dotfiles/.private/*

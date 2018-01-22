@@ -22,7 +22,7 @@ alias e="subl -n ."
 alias mate="subl"
 
 #  ruby/rails
-alias be='n bundle exec'
+alias be='bundle exec'
 
 alias rdbm='rake db:migrate db:test:prepare'
 alias bers='be rspec --drb'

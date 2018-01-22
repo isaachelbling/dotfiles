@@ -55,8 +55,10 @@ function format_dirs {
 export PS1="\
 ${CYAN}\
 $(echo '$(format_dirs)')\n\
-${SSH_STATUS} ${LIGHT_CYAN}<\u@\h> ${RED}《\
+${SSH_STATUS} ${LIGHT_CYAN}<\u@\h> ${RED}《 \
+${PERIWINKLE}$(echo 'node $(nvm current)') ${RED}┃ \
 $(echo '$(type __git_ps1 &>/dev/null && __git_ps1 "\e[0;32m⎇ %s\e[1;30m")')\
 ${RED} 》\n\
 ${RED}\w/ ${LIGHT_CYAN}${PROMPT_SYMBOL}${NORMAL_COLOR} "
+
 # ${PERIWINKLE}$(echo '$(rvm-prompt)') ${RED}┃ \
